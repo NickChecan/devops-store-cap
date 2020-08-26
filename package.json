@@ -12,11 +12,13 @@
   "scripts": {
     "start": "npx cds run"
   },
-  "cds":{
+  "cds": {
     "requires": {
       "db": {
-      "kind": "hana",
-      "model": ["db"]
+        "kind": "hana",
+        "model": [
+          "db"
+        ]
       }
     }
   }
